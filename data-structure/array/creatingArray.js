@@ -29,6 +29,6 @@ const newArr = new MyArray();
 newArr.push("hello");
 newArr.push("world");
 newArr.push(2022);
-newArr.delete(0);
+newArr.delete(1);
 
 console.log(newArr);
