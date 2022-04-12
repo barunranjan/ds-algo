@@ -13,7 +13,7 @@ class MyArray {
   }
   pop() {
     const lastitem = this.data[this.length - 1];
-    delete this.data.lastitem;
+    delete this.data[this.length - 1];
     this.length--;
     return lastitem;
   }
