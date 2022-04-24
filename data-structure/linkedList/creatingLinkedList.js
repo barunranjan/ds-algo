@@ -37,6 +37,9 @@ class LinkedList {
     this.head = prevValue;
     return this;
   }
+  insert(idx, value) {
+    for (let i = 0; i < idx - 1; i++) {}
+  }
 }
 const myLinkedList = new LinkedList(10);
 myLinkedList.append(15);
