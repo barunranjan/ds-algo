@@ -47,10 +47,8 @@ myStack.peek();
 myStack.push("google");
 myStack.push("udemy");
 myStack.push("discord");
-// myStack.peek();
-// myStack.pop();
-// myStack.pop();
-// myStack.pop();
+myStack.peek();
+myStack.pop();
 
 console.log(myStack);
 
